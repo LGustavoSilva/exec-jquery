@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Bungee', sans-serif;
+}
+
+body{
+    background-color: #e7e7e7e7;
+}
+
+div{
+    max-width: 500px;
+    width: 100%;
+    margin: 120px auto;
+}
+
+div h1{
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 40px;
+    font-weight: bold;
+
+}
+
+div form{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+div form input, button{
+    padding: 8px;
+    font-size: 24px;
+    margin-bottom: 40px;
+
+}
+
+ul li{
+    text-align: center;
+    list-style-position:inside;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.check{
+    text-decoration: line-through;
+}
+
+
